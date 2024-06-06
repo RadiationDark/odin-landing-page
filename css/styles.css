@@ -4,6 +4,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
 }
 
 a {
@@ -14,7 +15,7 @@ a {
 .header {
     background: #1f2937;
     padding: 0 60px;
-    height: 338px;
+    min-height: 338px;
 }
 
 .header-logo {
@@ -32,7 +33,7 @@ a {
 ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 18px;
     align-items: center;
     color: #e5e7eb;
     font-size: 18px;
@@ -50,7 +51,6 @@ ul {
     font-size: small;
     width: 300px;
     height: 200px;
-    flex-grow: 1;
     flex-shrink: 0;
     color: #e5e7eb;
     display: flex;
@@ -59,6 +59,7 @@ ul {
 }
 
 .left-box {
+    width: 385px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -83,4 +84,92 @@ button {
     color: white;
     background: #3882f6;
     border-radius: 8px;
+}
+
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.subsection {
+    padding-bottom: 30px;
+}
+
+.info-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 50px;
+}
+
+.image {
+    border: 2px solid #3882f6 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 130px;
+}
+
+.description {
+    text-align: center;
+}
+
+.reviews {
+    background: #e5e7eb;
+    padding: 100px 160px;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+
+}
+
+.quoter {
+     text-align: end;
+     font-size: 18px;
+     font-weight: 700;
+}
+.sign-up-section {
+    margin: 50px 120px;
+    padding: 35px 0;
+    background-color: #3882f6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-button {
+    border: 2px solid #f9faf8;
+}
+
+.promt-signup, .signup-text {
+    color: #f9faf8;
+}
+
+.promt-signup {
+    font-weight: 700;
 }
